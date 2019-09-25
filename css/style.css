@@ -1,0 +1,11 @@
+/* colore cont */
+.container{
+  background: pink;
+}
+/* regole per bordo e alt */
+.bordo{
+  /* height: 200px; */
+  text-align: center;
+  border: solid 1px black;
+  padding: 92px 0;
+}
