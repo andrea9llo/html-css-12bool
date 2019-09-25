@@ -7,10 +7,23 @@
   height: 200px;
   position: relative;
   border: solid 1px black;
+  padding: 5px;
 }
 span{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.nested{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+.colnest{
+position: relative;
+height: 190px;
+background: red;
+border: solid 1px white;
 }
